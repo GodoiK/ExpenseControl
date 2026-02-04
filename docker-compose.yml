@@ -1,0 +1,36 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: expensecontrol-postgres
+    environment:
+      POSTGRES_DB: expensecontrol
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - expensecontrol_pgdata:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./backend
+    container_name: expensecontrol-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=expensecontrol;Username=postgres;Password=postgres
+    ports:
+      - "7214:8080"
+    depends_on:
+      - postgres
+
+  web:
+    build:
+      context: ./frontend
+    container_name: expensecontrol-web
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+
+volumes:
+  expensecontrol_pgdata:

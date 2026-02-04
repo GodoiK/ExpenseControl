@@ -1,0 +1,15 @@
+﻿using ExpenseControl.Domain.Enums;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExpenseControl.Application.Dtos.Category
+{
+    public record CategoryResponse(
+        Guid Id,
+        string Description,
+        CategoryPurpose Purpose
+    );
+}
