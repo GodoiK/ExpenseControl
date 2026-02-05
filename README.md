@@ -13,9 +13,8 @@ docker compose down -v
 docker compose up --build
 ```
 
-## Acessos
+## Acesso
 
-- Swagger: http://localhost:7214/swagger
 - Frontend: http://localhost:5173
 
 ## Regras implementadas
