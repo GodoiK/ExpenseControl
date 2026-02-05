@@ -1,7 +1,7 @@
 # ExpenseControl (Fullstack)
 
 - **Backend:** ASP.NET Core 8 + EF Core + PostgreSQL
-- **Frontend:** React + TypeScript (Vite build) servido via Nginx
+- **Frontend:** React (Nodejs v20.20) + TypeScript (Vite build) servido via Nginx
 - **Sem login:** apenas o tomador cadastra pessoas/categorias e registra lançamentos.
 
 ## Subir com Docker
