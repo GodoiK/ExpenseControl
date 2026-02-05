@@ -1,8 +1,8 @@
 # ExpenseControl (Fullstack)
 
 - **Backend:** ASP.NET Core 8 + EF Core + PostgreSQL
-- **Frontend:** React + TypeScript (Vite build) servido via Nginx
-- **Sem login:** apenas o tomador (você) cadastra pessoas/categorias e registra lançamentos.
+- **Frontend:** React (Nodejs v20.20) + TypeScript (Vite build) servido via Nginx
+- **Sem login:** apenas o tomador cadastra pessoas/categorias e registra lançamentos.
 
 ## Subir com Docker
 
@@ -13,10 +13,10 @@ docker compose down -v
 docker compose up --build
 ```
 
-## Acessos
+## Acesso
 
-- Swagger: http://localhost:7214/swagger
 - Frontend: http://localhost:5173
+- *confirmar no docker se a api está rodando*
 
 ## Regras implementadas
 
@@ -28,4 +28,5 @@ docker compose up --build
 
 ## Banco de dados
 
-O backend executa `db.Database.Migrate()` ao iniciar, aplicando as migrations incluídas no projeto.
+Postgresql:
+Banco escolhido por ser OpenSource
