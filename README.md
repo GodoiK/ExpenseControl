@@ -16,6 +16,7 @@ docker compose up --build
 ## Acesso
 
 - Frontend: http://localhost:5173
+*confirmar no docker se a api está rodando*
 
 ## Regras implementadas
 
