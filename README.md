@@ -2,7 +2,7 @@
 
 - **Backend:** ASP.NET Core 8 + EF Core + PostgreSQL
 - **Frontend:** React + TypeScript (Vite build) servido via Nginx
-- **Sem login:** apenas o tomador (você) cadastra pessoas/categorias e registra lançamentos.
+- **Sem login:** apenas o tomador cadastra pessoas/categorias e registra lançamentos.
 
 ## Subir com Docker
 
@@ -27,4 +27,5 @@ docker compose up --build
 
 ## Banco de dados
 
-O backend executa `db.Database.Migrate()` ao iniciar, aplicando as migrations incluídas no projeto.
+Postgresql:
+Banco escolhido por ser OpenSource
