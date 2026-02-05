@@ -28,3 +28,4 @@ C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseCon
 C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Application\obj\Debug\net8.0\refint\ExpenseControl.Application.dll
 C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Application\obj\Debug\net8.0\ExpenseControl.Application.pdb
 C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Application\obj\Debug\net8.0\ref\ExpenseControl.Application.dll
+C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Application\obj\Debug\net8.0\ExpenseControl.Application.sourcelink.json

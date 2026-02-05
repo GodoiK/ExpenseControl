@@ -194,7 +194,7 @@ export default function App() {
         categoryId: recCategoryId,
         type: Number(recType),
         amount: Number(recAmount),
-        description: recDesc, 
+        description: recDesc,
       })
       setRecAmount(0)
       setRecDesc('')
@@ -206,9 +206,9 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 1100, margin: '0 auto', padding: 20, fontFamily: 'system-ui, Arial' }}>
-      <h1 style={{ margin: 0 }}>ExpenseControl</h1>
+      <h1 style={{ margin: 0 }}>Controle De Gastos</h1>
       <div style={{ color: '#666', margin: '8px 0 18px' }}>
-        
+
       </div>
 
       <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 16 }}>

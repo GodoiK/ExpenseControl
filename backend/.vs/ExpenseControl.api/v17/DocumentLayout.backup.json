@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "ExpenseControl.Api.Server\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\God\\Downloads\\ExpenseControl.fullstack.reactts.fixedlogic.v2\\ExpenseControlFullstack\\backend\\ExpenseControl.Api.Server\\Controllers\\UserController.cs",
               "RelativeToolTip": "ExpenseControl.Api.Server\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T21:59:49.97Z",
               "EditorCaption": ""
@@ -59,7 +59,8 @@
               "RelativeToolTip": "ExpenseControl.Api.Server\\Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:59:17.455Z"
+              "WhenOpened": "2026-02-05T21:59:17.455Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,7 +72,8 @@
               "RelativeToolTip": "ExpenseControl.Application\\Usecases\\Users\\GetUserByIdUseCase.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:57:44.937Z"
+              "WhenOpened": "2026-02-05T21:57:44.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,7 +85,8 @@
               "RelativeToolTip": "ExpenseControl.Application\\Usecases\\Users\\GetAllUserUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:57:05.158Z"
+              "WhenOpened": "2026-02-05T21:57:05.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -95,7 +98,8 @@
               "RelativeToolTip": "ExpenseControl.Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:55:59.854Z"
+              "WhenOpened": "2026-02-05T21:55:59.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -107,7 +111,8 @@
               "RelativeToolTip": "ExpenseControl.Application\\Interfaces\\Repositories\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:55:38.828Z"
+              "WhenOpened": "2026-02-05T21:55:38.828Z",
+              "EditorCaption": ""
             }
           ]
         }

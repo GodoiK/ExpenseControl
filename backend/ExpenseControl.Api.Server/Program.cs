@@ -1,15 +1,16 @@
-using Microsoft.AspNetCore.Http;
 using ExpenseControl.Application.Interfaces.Repositories;
 using ExpenseControl.Application.UseCase.Users;
 using ExpenseControl.Application.Usecases.Category;
 using ExpenseControl.Application.Usecases.FinancialRecords;
+using ExpenseControl.Application.Usecases.Users;
 using ExpenseControl.Application.UseCases;
 using ExpenseControl.Application.UseCases.FinancialRecord;
-using ExpenseControl.Application.UseCases.Users;
 using ExpenseControl.Application.UseCases.FinancialRecords;
+using ExpenseControl.Application.UseCases.Users;
 using ExpenseControl.Domain.Repositories;
 using ExpenseControl.Infrastructure.Data;
 using ExpenseControl.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -32,6 +33,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IFinancialRecordRepository, FinancialRecordRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
+builder.Services.AddScoped<GetUserByIdUseCase>();
 builder.Services.AddScoped<CreateUserUseCase>();
 builder.Services.AddScoped<GetAllUsersUseCase>();
 builder.Services.AddScoped<DeleteUserUseCase>();

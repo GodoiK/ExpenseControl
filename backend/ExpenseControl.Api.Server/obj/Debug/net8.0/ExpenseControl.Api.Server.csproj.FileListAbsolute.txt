@@ -252,3 +252,5 @@ C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseCon
 C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Api.Server\obj\Debug\net8.0\ExpenseControl.Api.Server.pdb
 C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Api.Server\obj\Debug\net8.0\ExpenseControl.Api.Server.genruntimeconfig.cache
 C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Api.Server\obj\Debug\net8.0\ref\ExpenseControl.Api.Server.dll
+C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Api.Server\obj\Debug\net8.0\ExpenseControl.Api.Server.sourcelink.json
+C:\Users\God\Downloads\ExpenseControl.fullstack.reactts.fixedlogic.v2\ExpenseControlFullstack\backend\ExpenseControl.Api.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,5 +1,6 @@
 ﻿using ExpenseControl.Application.Dtos.User;
 using ExpenseControl.Application.UseCase.Users;
+using ExpenseControl.Application.Usecases.Users;
 using ExpenseControl.Application.UseCases.FinancialRecord;
 using ExpenseControl.Application.UseCases.FinancialRecords;
 using ExpenseControl.Application.UseCases.Users;
@@ -25,6 +26,13 @@ public class UsersController : ControllerBase
         [FromServices] GetAllUsersUseCase useCase)
     {
         return Ok(await useCase.ExecuteAsync());
+    }
+
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById(Guid id, GetUserByIdUseCase useCase)
+    {
+        var result = await useCase.ExecuteAsync(id);
+        return Ok(result);
     }
 
     [HttpDelete("{id}")]
